@@ -1,0 +1,46 @@
+body {
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	background-color: #999999;
+	font-size: 1.4em;
+
+}
+input, label {
+	display: inline;
+}
+input {
+	padding: .5em;
+	margin-bottom: 2em;
+}
+input[type="submit"]{
+	color: #FFFFFF;
+	background: #0F0F0F;
+	padding: .69em, .4em, 0, 0;
+	margin: .69em, 0, 0, 0;
+	border-radius: .33em;
+	border-bottom: .2em;
+	font-size: 1.4em;
+}
+input[type="submit"]:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+.bad {
+	color: #FF0000;
+}
+.needsimprovement {
+	color: #FF9900;
+}
+.average {
+	color: #FFFF00;
+}
+.good {
+	color: #0066FF;
+}
+.excellent {
+	color: #00FF00;
+}
+button {
+	color: #FFFFFF;
+	background: #0F0F0F;
+	font-size: .8em;
+}
